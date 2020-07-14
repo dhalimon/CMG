@@ -19,6 +19,7 @@ def chooseCave():
         print('Which cave will you go into? (1 or 2)')
         cave = input()
 
+
     return cave
 
 def checkCave(chosenCave):
