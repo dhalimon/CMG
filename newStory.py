@@ -1,4 +1,5 @@
-#Newer version on Github _ newStory.py
+import random
+
 def mad_libs():
     print("Welcome to the game of Mad Libs! Where you will build your vocabulary and be entertained for hours!")
     reptile = []
@@ -28,8 +29,15 @@ def mad_libs():
         adverb.append(input('Enter new ADVERB: '))
     print(adverb)
 
-    print("Once upon a time, there was a(n) %s. It was a very %s %s. It had %s %s. It lived %s ever after." % (
-        reptile, adjective, reptile, str(number), noun, adverb))
+
+
+
+    print("Once upon a time, there was a(n) %s. It was a very %s %s. It had %s %s. It lived %s ever after." % (random.choice(reptile),
+random.choice(adjective),
+random.choice(reptile),
+random.choice(str(number)),
+random.choice(noun),
+random.choice(adverb)))
 
 
 def test():

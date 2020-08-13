@@ -1,4 +1,3 @@
-# codio grocery list python
 grocery_item = {}
 grocery_history = []
 
