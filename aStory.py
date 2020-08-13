@@ -1,8 +1,9 @@
 #Newer version on Github _ newStory.py
 def mad_libs():
     print("Welcome to the game of Mad Libs! Where you will build your vocabulary and be entertained for hours!")
-    reptile = []
-    for i in range(5):
+
+    reptile = [] #create an empty list
+    for i in range(5): #Add  five items
         reptile.append(input('Enter five new REPTILE: '))
     print(reptile)
 

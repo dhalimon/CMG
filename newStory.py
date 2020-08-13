@@ -2,10 +2,10 @@ import random
 
 def mad_libs():
     print("Welcome to the game of Mad Libs! Where you will build your vocabulary and be entertained for hours!")
-    reptile = []
-    for i in range(5):
+    reptile = []  #create an empty list
+    for i in range(5): #Add  five items
         reptile.append(input('Enter five new REPTILE: '))
-    print(reptile)
+    print(reptile) # prints out list- optional
 
 
     adjective = []
@@ -29,9 +29,7 @@ def mad_libs():
         adverb.append(input('Enter new ADVERB: '))
     print(adverb)
 
-
-
-
+    # Creates random choice from list of five items
     print("Once upon a time, there was a(n) %s. It was a very %s %s. It had %s %s. It lived %s ever after." % (random.choice(reptile),
 random.choice(adjective),
 random.choice(reptile),
@@ -41,6 +39,6 @@ random.choice(adverb)))
 
 
 def test():
-    mad_libs()
+    mad_libs() # Runs above function
 
 test()
